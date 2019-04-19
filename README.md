@@ -1,3 +1,3 @@
 # Direct human impact
 
-<img src="https://github.com/eDrivers/NutrientInput/blob/master/Figures/NutrientInput.png" alt="NutrientInput" width="600"/>
+<img src="https://github.com/eDrivers/DirectHumanImpact/blob/master/Figures/DirectHumanImpact.png" alt="DirectHumanImpact" width="600"/>
