@@ -82,8 +82,11 @@ dirHumImpact <- dirHumImpact[!is.na(dirHumImpact$DirectHumanImpact), ]
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #                                  EXPORT DATA
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Change name for uniformity
+DirectHumanImpact <- dirHumImpact
+
 # Export object as .RData
-save(dirHumImpact, file = './Data/Driver/DirectHumanImpact.RData')
+save(DirectHumanImpact, file = './Data/Driver/DirectHumanImpact.RData')
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
